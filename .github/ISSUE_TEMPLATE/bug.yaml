@@ -45,30 +45,27 @@ body:
   validations:
     required: true
     
-- type: textarea
+- type: input
   attributes:
     label: OS Version
-    description: |
-      example: 16.3.1
-    render: markdown
+    placeholder: 16.3.1
+    description: The version of iOS/iPad OS/Android running on your device.
   validations:
     required: true
 
-- type: textarea
+- type: input
   attributes:
     label: Device
-    description: |
-      example: iPhone 14 Pro
-    render: markdown
+    placeholder: iPhone 14 Pro
+    description: The model of your device.
   validations:
     required: true
     
-- type: textarea
+- type: input
   attributes:
     label: App Version
-    description: |
-      example: 1.0.9
-    render: markdown
+    placeholder: 1.0.9
+    description: The vversion of the app you are running, you can find it at the bottom of the settings screen.
   validations:
     required: true
 
