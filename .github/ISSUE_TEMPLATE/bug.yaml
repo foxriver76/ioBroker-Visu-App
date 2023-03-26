@@ -65,7 +65,7 @@ body:
   attributes:
     label: App Version
     placeholder: 1.0.9
-    description: The vversion of the app you are running, you can find it at the bottom of the settings screen.
+    description: The version of the app you are running, you can find it at the bottom of the settings screen.
   validations:
     required: true
 
